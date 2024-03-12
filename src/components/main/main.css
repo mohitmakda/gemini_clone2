@@ -1,16 +1,22 @@
-.main{
+.main {
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
+    background: radial-gradient(farthest-corner at 10% 20%, #000 0%, #0d0852 81.3%);
 }
 .main .nav{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 22px;
+    font-size: 30px;
     padding: 20px;
-    color: #585858;
+    color: #ffffff;
+}
+
+.main .nav p{
+    font-family: 'Times New Roman', Times, serif;
 }
 .main .nav img{
     width: 40px;
@@ -20,6 +26,9 @@
     max-width: 900px;
     margin: auto;
 }
+.main-container {
+    color: white;
+}
 .main-container .greet{
     margin: 50px 0px;
     font-size: 56px;
@@ -27,7 +36,8 @@
     font-weight: 500px;
 }
 .main .greet span{
-    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    background: -webkit-linear-gradient(16deg, #4b90ff, #9a57ff);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

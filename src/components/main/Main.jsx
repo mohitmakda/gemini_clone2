@@ -27,49 +27,49 @@ const Main = () => {
 					<>
 						<div className="greet">
 							<p>
-								<span>Hello , Dev </span>
+								<span>Hello , truth-seekers! </span>
 							</p>
-							<p>How Can i Help You Today?</p>
+							<p>How Can we Help You Today?</p>
 						</div>
 						<div className="cards">
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("Suggest Some Place To Visit In Kerala")
+									handleCardClick("Did the COVID-19 pandemic originate from America? Verify the accuracy of this news")
 								}
 							>
-								<p>Suggest Some Place To Visit In Kerala </p>
+								<p>Did the COVID-19 pandemic originate from America? Verify the accuracy of this news  </p>
 								<img src={assets.compass_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() =>
 									handleCardClick(
-										"Brainstorm team bonding activities for our work retreat"
+										"Was Gandhi ji first pm of india? Validate the accuracy of this news."
 									)
 								}
 							>
-								<p>Brainstorm team bonding activities for our work retreat </p>
+								<p>Was Gandhi ji first pm of india? Did Nasa really share satellite image of India on their website on diwali?Validate the accuracy of this news</p>
 								<img src={assets.message_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("How to Create a Gyroscope using Disc?")
+									handleCardClick("Is english really the national language of india?Validate the accuracy of this news.")
 								}
 							>
-								<p>How to Create a Gyroscope using Disc?</p>
+								<p>Is english really the national language of india?Validate the accuracy of this news</p>
 								<img src={assets.bulb_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() => {
 									handleCardClick(
-										"Create a Script for the youtube video about coding "
+										"Has pakistan really won 1965 war?Validate the accuracy of this news."
 									);
 								}}
 							>
-								<p>Create a Script for the youtube video about coding </p>
+								<p>Has pakistan really won 1965 war?Validate the accuracy of this news. </p>
 								<img src={assets.code_icon} alt="" />
 							</div>
 						</div>
@@ -103,11 +103,11 @@ const Main = () => {
 							}}
 							value={input}
 							type="text"
-							placeholder="Enter the Prompt Here"
+							placeholder="Enter the news Here"
 						/>
 						<div>
-							<img src={assets.gallery_icon} alt="" />
-							<img src={assets.mic_icon} alt="" />
+							{/* <img src={assets.gallery_icon} alt="" />
+							<img src={assets.mic_icon} alt="" /> */}
 							<img
 								src={assets.send_icon}
 								alt=""
@@ -119,8 +119,8 @@ const Main = () => {
 					</div>
 					<div className="bottom-info">
 						<p>
-							Gemini may display inaccurate info, including about people, so
-							double-check its responses. Your privacy & Gemini Apps
+						Vistaar may display inaccurate info, including about people, so
+							double-check its responses. 
 						</p>
 					</div>
 				</div>

@@ -1,11 +1,18 @@
+
+
 .sidebar {
 	min-height: 100vh;
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: #f0f4f9;
-	padding: 10px 15px;
-   
+    background: rgba(4, 2, 43, 1); /* Equivalent to #04022b */
+ ;
+    /* background: linear-gradient(to bottom, #0d0852 0%, #0d0852 100%); */
+
+    color: #e2e6eb;
+    border-right: 5px solid -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    
+
 }
 .sidebar .top{
     margin-top: 15px;
@@ -61,6 +68,10 @@
 .sidebar .bottom-item{
     padding-right: 10px;
     cursor: pointer;
+}
+
+.bottom .bottom-item p{
+    color: white;
 }
 
 @media (max-width:600px){
